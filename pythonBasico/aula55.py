@@ -12,7 +12,7 @@ while produto != 'sair':
         for indice, produto in enumerate(lista_de_compras):
             print(indice, produto)
     elif produto == 'apagar':
-        indice = int(input('Digite o índice do produto que deseja apagar: '))
+        indice = int(input('Digite o índice do produto que deseja apagar: ')) 
         try:
             lista_de_compras.pop(indice)
         except IndexError:
